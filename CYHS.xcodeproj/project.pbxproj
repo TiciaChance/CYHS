@@ -12,6 +12,49 @@
 		119F28621DEE44BC00576BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119F28601DEE44BC00576BA1 /* Main.storyboard */; };
 		119F28641DEE44BC00576BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119F28631DEE44BC00576BA1 /* Assets.xcassets */; };
 		119F28671DEE44BC00576BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119F28651DEE44BC00576BA1 /* LaunchScreen.storyboard */; };
+		119F28851DEE784100576BA1 /* Photos For CYHS in Resources */ = {isa = PBXBuildFile; fileRef = 119F28841DEE784100576BA1 /* Photos For CYHS */; };
+		119F28871DEE788400576BA1 /* bigbun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28861DEE788400576BA1 /* bigbun.jpg */; };
+		119F288B1DEE789500576BA1 /* braidedTWObuns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F288A1DEE789500576BA1 /* braidedTWObuns.jpg */; };
+		119F288D1DEE79F500576BA1 /* blondeShortCut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F288C1DEE79F500576BA1 /* blondeShortCut.jpg */; };
+		119F288F1DEE7A0800576BA1 /* corneows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F288E1DEE7A0800576BA1 /* corneows.jpg */; };
+		119F28911DEE7A0C00576BA1 /* flowerPigtail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28901DEE7A0C00576BA1 /* flowerPigtail.jpg */; };
+		119F28931DEE7A0F00576BA1 /* greyUpDo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28921DEE7A0F00576BA1 /* greyUpDo.jpg */; };
+		119F28951DEE7A1400576BA1 /* medBlkAfro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28941DEE7A1400576BA1 /* medBlkAfro.jpg */; };
+		119F28971DEE7A1700576BA1 /* officialAFRO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28961DEE7A1700576BA1 /* officialAFRO.jpg */; };
+		119F28991DEE7A1B00576BA1 /* shavedsided.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28981DEE7A1B00576BA1 /* shavedsided.jpg */; };
+		119F289B1DEE7A1E00576BA1 /* superShortBlonde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F289A1DEE7A1E00576BA1 /* superShortBlonde.jpg */; };
+		119F289D1DEE7A5F00576BA1 /* colorful.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F289C1DEE7A5F00576BA1 /* colorful.jpg */; };
+		119F289F1DEE7ACB00576BA1 /* fancy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F289E1DEE7ACB00576BA1 /* fancy.jpg */; };
+		119F28A11DEE7AD400576BA1 /* sza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28A01DEE7AD400576BA1 /* sza.jpg */; };
+		119F28A31DEE7AD700576BA1 /* shortandcute.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28A21DEE7AD700576BA1 /* shortandcute.jpg */; };
+		119F28A51DEE7ADC00576BA1 /* 90shightop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28A41DEE7ADC00576BA1 /* 90shightop.jpg */; };
+		119F28A71DEE7ADF00576BA1 /* solange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28A61DEE7ADF00576BA1 /* solange.jpg */; };
+		119F28A91DEE7B3400576BA1 /* flexirodfro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28A81DEE7B3400576BA1 /* flexirodfro.jpg */; };
+		119F28AB1DEE7B4600576BA1 /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28AA1DEE7B4600576BA1 /* lion.jpg */; };
+		119F28AD1DEE7B4B00576BA1 /* bantuknotmohawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28AC1DEE7B4B00576BA1 /* bantuknotmohawk.jpg */; };
+		119F28AF1DEE7B5000576BA1 /* shortwithflower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28AE1DEE7B5000576BA1 /* shortwithflower.jpg */; };
+		119F28B11DEE7BDF00576BA1 /* shapedAfro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28B01DEE7BDF00576BA1 /* shapedAfro.jpg */; };
+		119F28B31DEE7BE900576BA1 /* wow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28B21DEE7BE900576BA1 /* wow.jpg */; };
+		119F28B51DEE7BEC00576BA1 /* classic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28B41DEE7BEC00576BA1 /* classic.jpg */; };
+		119F28B71DEE7BEF00576BA1 /* fancy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28B61DEE7BEF00576BA1 /* fancy2.jpg */; };
+		119F28B91DEE7BF200576BA1 /* amazing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28B81DEE7BF200576BA1 /* amazing.jpg */; };
+		119F28BB1DEE7EC200576BA1 /* greyDreads.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28BA1DEE7EC200576BA1 /* greyDreads.jpg */; };
+		119F28BD1DEE7EC500576BA1 /* quarterbantuknot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28BC1DEE7EC500576BA1 /* quarterbantuknot.jpg */; };
+		119F28BF1DEE7EC800576BA1 /* cut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28BE1DEE7EC800576BA1 /* cut.jpg */; };
+		119F28C11DEE7ECB00576BA1 /* bantu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28C01DEE7ECB00576BA1 /* bantu.jpg */; };
+		119F28C31DEE7ECE00576BA1 /* facedreads.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28C21DEE7ECE00576BA1 /* facedreads.jpg */; };
+		119F28C51DEE7ED100576BA1 /* tapered.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28C41DEE7ED100576BA1 /* tapered.jpg */; };
+		119F28C81DEE7F9800576BA1 /* twists.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28C71DEE7F9800576BA1 /* twists.jpg */; };
+		119F28CA1DEE7F9C00576BA1 /* bighair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28C91DEE7F9C00576BA1 /* bighair.jpg */; };
+		119F28CC1DEE7F9F00576BA1 /* shorttwists.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28CB1DEE7F9F00576BA1 /* shorttwists.jpg */; };
+		119F28CE1DEE7FA300576BA1 /* headwrap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28CD1DEE7FA300576BA1 /* headwrap.jpg */; };
+		119F28D01DEE7FA900576BA1 /* longdreads.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28CF1DEE7FA900576BA1 /* longdreads.jpg */; };
+		119F28D21DEE7FAD00576BA1 /* halfandhalf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28D11DEE7FAD00576BA1 /* halfandhalf.jpg */; };
+		119F28D41DEE815100576BA1 /* fro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28D31DEE815100576BA1 /* fro.jpg */; };
+		119F28D61DEE815300576BA1 /* headwrapanddreads.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28D51DEE815300576BA1 /* headwrapanddreads.jpg */; };
+		119F28D81DEE81A400576BA1 /* red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28D71DEE81A400576BA1 /* red.jpg */; };
+		119F28DA1DEE81A700576BA1 /* curls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28D91DEE81A700576BA1 /* curls.jpg */; };
+		119F28DC1DEE81B000576BA1 /* dreads3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28DB1DEE81B000576BA1 /* dreads3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +65,49 @@
 		119F28631DEE44BC00576BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		119F28661DEE44BC00576BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		119F28681DEE44BC00576BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119F28841DEE784100576BA1 /* Photos For CYHS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Photos For CYHS"; sourceTree = "<group>"; };
+		119F28861DEE788400576BA1 /* bigbun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bigbun.jpg; path = "CYHS/Photos For CYHS/bigbun.jpg"; sourceTree = "<group>"; };
+		119F288A1DEE789500576BA1 /* braidedTWObuns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = braidedTWObuns.jpg; path = "CYHS/Photos For CYHS/braidedTWObuns.jpg"; sourceTree = "<group>"; };
+		119F288C1DEE79F500576BA1 /* blondeShortCut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blondeShortCut.jpg; path = "CYHS/Photos For CYHS/blondeShortCut.jpg"; sourceTree = "<group>"; };
+		119F288E1DEE7A0800576BA1 /* corneows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = corneows.jpg; path = "CYHS/Photos For CYHS/corneows.jpg"; sourceTree = "<group>"; };
+		119F28901DEE7A0C00576BA1 /* flowerPigtail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = flowerPigtail.jpg; path = "CYHS/Photos For CYHS/flowerPigtail.jpg"; sourceTree = "<group>"; };
+		119F28921DEE7A0F00576BA1 /* greyUpDo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = greyUpDo.jpg; path = "CYHS/Photos For CYHS/greyUpDo.jpg"; sourceTree = "<group>"; };
+		119F28941DEE7A1400576BA1 /* medBlkAfro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medBlkAfro.jpg; path = "CYHS/Photos For CYHS/medBlkAfro.jpg"; sourceTree = "<group>"; };
+		119F28961DEE7A1700576BA1 /* officialAFRO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = officialAFRO.jpg; path = "CYHS/Photos For CYHS/officialAFRO.jpg"; sourceTree = "<group>"; };
+		119F28981DEE7A1B00576BA1 /* shavedsided.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shavedsided.jpg; path = "CYHS/Photos For CYHS/shavedsided.jpg"; sourceTree = "<group>"; };
+		119F289A1DEE7A1E00576BA1 /* superShortBlonde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = superShortBlonde.jpg; path = "CYHS/Photos For CYHS/superShortBlonde.jpg"; sourceTree = "<group>"; };
+		119F289C1DEE7A5F00576BA1 /* colorful.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colorful.jpg; sourceTree = "<group>"; };
+		119F289E1DEE7ACB00576BA1 /* fancy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fancy.jpg; sourceTree = "<group>"; };
+		119F28A01DEE7AD400576BA1 /* sza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sza.jpg; sourceTree = "<group>"; };
+		119F28A21DEE7AD700576BA1 /* shortandcute.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shortandcute.jpg; sourceTree = "<group>"; };
+		119F28A41DEE7ADC00576BA1 /* 90shightop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 90shightop.jpg; sourceTree = "<group>"; };
+		119F28A61DEE7ADF00576BA1 /* solange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = solange.jpg; sourceTree = "<group>"; };
+		119F28A81DEE7B3400576BA1 /* flexirodfro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flexirodfro.jpg; sourceTree = "<group>"; };
+		119F28AA1DEE7B4600576BA1 /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpg; sourceTree = "<group>"; };
+		119F28AC1DEE7B4B00576BA1 /* bantuknotmohawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bantuknotmohawk.jpg; sourceTree = "<group>"; };
+		119F28AE1DEE7B5000576BA1 /* shortwithflower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shortwithflower.jpg; sourceTree = "<group>"; };
+		119F28B01DEE7BDF00576BA1 /* shapedAfro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shapedAfro.jpg; sourceTree = "<group>"; };
+		119F28B21DEE7BE900576BA1 /* wow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wow.jpg; sourceTree = "<group>"; };
+		119F28B41DEE7BEC00576BA1 /* classic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = classic.jpg; sourceTree = "<group>"; };
+		119F28B61DEE7BEF00576BA1 /* fancy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fancy2.jpg; sourceTree = "<group>"; };
+		119F28B81DEE7BF200576BA1 /* amazing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amazing.jpg; sourceTree = "<group>"; };
+		119F28BA1DEE7EC200576BA1 /* greyDreads.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greyDreads.jpg; sourceTree = "<group>"; };
+		119F28BC1DEE7EC500576BA1 /* quarterbantuknot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quarterbantuknot.jpg; sourceTree = "<group>"; };
+		119F28BE1DEE7EC800576BA1 /* cut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cut.jpg; sourceTree = "<group>"; };
+		119F28C01DEE7ECB00576BA1 /* bantu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bantu.jpg; sourceTree = "<group>"; };
+		119F28C21DEE7ECE00576BA1 /* facedreads.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facedreads.jpg; sourceTree = "<group>"; };
+		119F28C41DEE7ED100576BA1 /* tapered.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tapered.jpg; sourceTree = "<group>"; };
+		119F28C71DEE7F9800576BA1 /* twists.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twists.jpg; sourceTree = "<group>"; };
+		119F28C91DEE7F9C00576BA1 /* bighair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bighair.jpg; sourceTree = "<group>"; };
+		119F28CB1DEE7F9F00576BA1 /* shorttwists.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shorttwists.jpg; sourceTree = "<group>"; };
+		119F28CD1DEE7FA300576BA1 /* headwrap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headwrap.jpg; sourceTree = "<group>"; };
+		119F28CF1DEE7FA900576BA1 /* longdreads.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = longdreads.jpg; sourceTree = "<group>"; };
+		119F28D11DEE7FAD00576BA1 /* halfandhalf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = halfandhalf.jpg; sourceTree = "<group>"; };
+		119F28D31DEE815100576BA1 /* fro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fro.jpg; sourceTree = "<group>"; };
+		119F28D51DEE815300576BA1 /* headwrapanddreads.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headwrapanddreads.jpg; sourceTree = "<group>"; };
+		119F28D71DEE81A400576BA1 /* red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red.jpg; sourceTree = "<group>"; };
+		119F28D91DEE81A700576BA1 /* curls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = curls.jpg; sourceTree = "<group>"; };
+		119F28DB1DEE81B000576BA1 /* dreads3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dreads3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +124,7 @@
 		119F28501DEE44BB00576BA1 = {
 			isa = PBXGroup;
 			children = (
+				119F28C61DEE7EDE00576BA1 /* Photos */,
 				119F285B1DEE44BB00576BA1 /* CYHS */,
 				119F285A1DEE44BB00576BA1 /* Products */,
 			);
@@ -59,9 +146,59 @@
 				119F28601DEE44BC00576BA1 /* Main.storyboard */,
 				119F28631DEE44BC00576BA1 /* Assets.xcassets */,
 				119F28651DEE44BC00576BA1 /* LaunchScreen.storyboard */,
+				119F28841DEE784100576BA1 /* Photos For CYHS */,
 				119F28681DEE44BC00576BA1 /* Info.plist */,
 			);
 			path = CYHS;
+			sourceTree = "<group>";
+		};
+		119F28C61DEE7EDE00576BA1 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				119F28DB1DEE81B000576BA1 /* dreads3.jpg */,
+				119F28D91DEE81A700576BA1 /* curls.jpg */,
+				119F28D71DEE81A400576BA1 /* red.jpg */,
+				119F28D51DEE815300576BA1 /* headwrapanddreads.jpg */,
+				119F28D31DEE815100576BA1 /* fro.jpg */,
+				119F28D11DEE7FAD00576BA1 /* halfandhalf.jpg */,
+				119F28CF1DEE7FA900576BA1 /* longdreads.jpg */,
+				119F28CD1DEE7FA300576BA1 /* headwrap.jpg */,
+				119F28CB1DEE7F9F00576BA1 /* shorttwists.jpg */,
+				119F28C91DEE7F9C00576BA1 /* bighair.jpg */,
+				119F28C71DEE7F9800576BA1 /* twists.jpg */,
+				119F28C41DEE7ED100576BA1 /* tapered.jpg */,
+				119F28C21DEE7ECE00576BA1 /* facedreads.jpg */,
+				119F28C01DEE7ECB00576BA1 /* bantu.jpg */,
+				119F28BE1DEE7EC800576BA1 /* cut.jpg */,
+				119F28BC1DEE7EC500576BA1 /* quarterbantuknot.jpg */,
+				119F28BA1DEE7EC200576BA1 /* greyDreads.jpg */,
+				119F28B81DEE7BF200576BA1 /* amazing.jpg */,
+				119F28B61DEE7BEF00576BA1 /* fancy2.jpg */,
+				119F28B41DEE7BEC00576BA1 /* classic.jpg */,
+				119F28B21DEE7BE900576BA1 /* wow.jpg */,
+				119F28B01DEE7BDF00576BA1 /* shapedAfro.jpg */,
+				119F28AE1DEE7B5000576BA1 /* shortwithflower.jpg */,
+				119F28AC1DEE7B4B00576BA1 /* bantuknotmohawk.jpg */,
+				119F28AA1DEE7B4600576BA1 /* lion.jpg */,
+				119F28A81DEE7B3400576BA1 /* flexirodfro.jpg */,
+				119F28A61DEE7ADF00576BA1 /* solange.jpg */,
+				119F28A41DEE7ADC00576BA1 /* 90shightop.jpg */,
+				119F28A21DEE7AD700576BA1 /* shortandcute.jpg */,
+				119F28A01DEE7AD400576BA1 /* sza.jpg */,
+				119F289C1DEE7A5F00576BA1 /* colorful.jpg */,
+				119F289E1DEE7ACB00576BA1 /* fancy.jpg */,
+				119F289A1DEE7A1E00576BA1 /* superShortBlonde.jpg */,
+				119F28981DEE7A1B00576BA1 /* shavedsided.jpg */,
+				119F28961DEE7A1700576BA1 /* officialAFRO.jpg */,
+				119F28941DEE7A1400576BA1 /* medBlkAfro.jpg */,
+				119F28921DEE7A0F00576BA1 /* greyUpDo.jpg */,
+				119F28901DEE7A0C00576BA1 /* flowerPigtail.jpg */,
+				119F288E1DEE7A0800576BA1 /* corneows.jpg */,
+				119F288C1DEE79F500576BA1 /* blondeShortCut.jpg */,
+				119F288A1DEE789500576BA1 /* braidedTWObuns.jpg */,
+				119F28861DEE788400576BA1 /* bigbun.jpg */,
+			);
+			name = Photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +262,49 @@
 			files = (
 				119F28671DEE44BC00576BA1 /* LaunchScreen.storyboard in Resources */,
 				119F28641DEE44BC00576BA1 /* Assets.xcassets in Resources */,
+				119F28851DEE784100576BA1 /* Photos For CYHS in Resources */,
+				119F28871DEE788400576BA1 /* bigbun.jpg in Resources */,
+				119F288D1DEE79F500576BA1 /* blondeShortCut.jpg in Resources */,
+				119F288F1DEE7A0800576BA1 /* corneows.jpg in Resources */,
+				119F28B71DEE7BEF00576BA1 /* fancy2.jpg in Resources */,
+				119F28911DEE7A0C00576BA1 /* flowerPigtail.jpg in Resources */,
+				119F28BD1DEE7EC500576BA1 /* quarterbantuknot.jpg in Resources */,
+				119F28C51DEE7ED100576BA1 /* tapered.jpg in Resources */,
+				119F28931DEE7A0F00576BA1 /* greyUpDo.jpg in Resources */,
+				119F28D61DEE815300576BA1 /* headwrapanddreads.jpg in Resources */,
+				119F289D1DEE7A5F00576BA1 /* colorful.jpg in Resources */,
+				119F28DC1DEE81B000576BA1 /* dreads3.jpg in Resources */,
+				119F28D41DEE815100576BA1 /* fro.jpg in Resources */,
+				119F28C31DEE7ECE00576BA1 /* facedreads.jpg in Resources */,
+				119F28B91DEE7BF200576BA1 /* amazing.jpg in Resources */,
+				119F28DA1DEE81A700576BA1 /* curls.jpg in Resources */,
+				119F28D81DEE81A400576BA1 /* red.jpg in Resources */,
+				119F28C11DEE7ECB00576BA1 /* bantu.jpg in Resources */,
+				119F28D01DEE7FA900576BA1 /* longdreads.jpg in Resources */,
+				119F28B11DEE7BDF00576BA1 /* shapedAfro.jpg in Resources */,
+				119F28D21DEE7FAD00576BA1 /* halfandhalf.jpg in Resources */,
+				119F28CE1DEE7FA300576BA1 /* headwrap.jpg in Resources */,
+				119F28CC1DEE7F9F00576BA1 /* shorttwists.jpg in Resources */,
+				119F28CA1DEE7F9C00576BA1 /* bighair.jpg in Resources */,
+				119F28C81DEE7F9800576BA1 /* twists.jpg in Resources */,
+				119F28BF1DEE7EC800576BA1 /* cut.jpg in Resources */,
+				119F28AD1DEE7B4B00576BA1 /* bantuknotmohawk.jpg in Resources */,
+				119F28BB1DEE7EC200576BA1 /* greyDreads.jpg in Resources */,
+				119F289F1DEE7ACB00576BA1 /* fancy.jpg in Resources */,
+				119F288B1DEE789500576BA1 /* braidedTWObuns.jpg in Resources */,
+				119F28B51DEE7BEC00576BA1 /* classic.jpg in Resources */,
+				119F28B31DEE7BE900576BA1 /* wow.jpg in Resources */,
+				119F28AF1DEE7B5000576BA1 /* shortwithflower.jpg in Resources */,
+				119F28AB1DEE7B4600576BA1 /* lion.jpg in Resources */,
+				119F28A71DEE7ADF00576BA1 /* solange.jpg in Resources */,
+				119F28A91DEE7B3400576BA1 /* flexirodfro.jpg in Resources */,
+				119F28A51DEE7ADC00576BA1 /* 90shightop.jpg in Resources */,
+				119F28951DEE7A1400576BA1 /* medBlkAfro.jpg in Resources */,
+				119F28A11DEE7AD400576BA1 /* sza.jpg in Resources */,
+				119F28A31DEE7AD700576BA1 /* shortandcute.jpg in Resources */,
+				119F28971DEE7A1700576BA1 /* officialAFRO.jpg in Resources */,
+				119F28991DEE7A1B00576BA1 /* shavedsided.jpg in Resources */,
+				119F289B1DEE7A1E00576BA1 /* superShortBlonde.jpg in Resources */,
 				119F28621DEE44BC00576BA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

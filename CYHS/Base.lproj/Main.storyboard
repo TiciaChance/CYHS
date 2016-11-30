@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CYHS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,51 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greyDreads.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9tL-Bx-hw6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lik-0N-oZa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="zbM-zX-8rb">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cLa-Fo-JmI">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9tL-Bx-hw6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5sT-h9-LEj"/>
+                            <constraint firstItem="cLa-Fo-JmI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Aft-Dr-SZL"/>
+                            <constraint firstItem="cLa-Fo-JmI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Brg-Yg-GIt"/>
+                            <constraint firstItem="cLa-Fo-JmI" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="DfV-dM-Gu6"/>
+                            <constraint firstItem="9tL-Bx-hw6" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="FNq-y1-faG"/>
+                            <constraint firstItem="Lik-0N-oZa" firstAttribute="width" secondItem="9tL-Bx-hw6" secondAttribute="width" id="QOJ-Ud-Gm6"/>
+                            <constraint firstItem="cLa-Fo-JmI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sn0-2e-mOP"/>
+                            <constraint firstItem="9tL-Bx-hw6" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="fe4-L4-qkQ"/>
+                            <constraint firstItem="Lik-0N-oZa" firstAttribute="height" secondItem="9tL-Bx-hw6" secondAttribute="height" id="gd3-qK-n0U"/>
+                            <constraint firstItem="Lik-0N-oZa" firstAttribute="centerX" secondItem="9tL-Bx-hw6" secondAttribute="centerX" id="jj5-l6-NNW"/>
+                            <constraint firstItem="9tL-Bx-hw6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kdi-TP-XDx"/>
+                            <constraint firstItem="Lik-0N-oZa" firstAttribute="centerY" secondItem="9tL-Bx-hw6" secondAttribute="centerY" id="zQm-DY-i39"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="aspectFitImgView" destination="cLa-Fo-JmI" id="L3u-81-Xsi"/>
+                        <outlet property="mainImageView" destination="9tL-Bx-hw6" id="S2N-SJ-y4Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="greyDreads.jpg" width="746" height="901"/>
+    </resources>
 </document>
