@@ -53,9 +53,8 @@
                                                 <action selector="saveButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wej-4p-Bis"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is your next hairstyle!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igt-9A-6Zu">
-                                            <rect key="frame" x="37" y="36" width="300" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is your next hairstyle!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igt-9A-6Zu">
+                                            <rect key="frame" x="37" y="36" width="300" height="20.5"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -63,12 +62,15 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="cLa-Fo-JmI" secondAttribute="bottom" constant="90" id="D8Y-qN-1ZE"/>
+                                        <constraint firstAttribute="trailing" secondItem="Igt-9A-6Zu" secondAttribute="trailing" constant="38" id="JdH-fJ-5qY"/>
+                                        <constraint firstItem="Igt-9A-6Zu" firstAttribute="top" secondItem="zbM-zX-8rb" secondAttribute="top" constant="36" id="XZV-TF-nlU"/>
                                         <constraint firstAttribute="trailing" secondItem="cLa-Fo-JmI" secondAttribute="trailing" id="Yup-Ed-xkR"/>
                                         <constraint firstItem="vqp-oX-uQr" firstAttribute="top" secondItem="cLa-Fo-JmI" secondAttribute="bottom" constant="16" id="ZFt-xz-yMm"/>
                                         <constraint firstAttribute="trailing" secondItem="vqp-oX-uQr" secondAttribute="trailing" constant="26" id="fr2-HF-8TT"/>
                                         <constraint firstItem="cLa-Fo-JmI" firstAttribute="top" secondItem="zbM-zX-8rb" secondAttribute="top" constant="100" id="gnw-BU-DkO"/>
                                         <constraint firstItem="cLa-Fo-JmI" firstAttribute="leading" secondItem="zbM-zX-8rb" secondAttribute="leading" id="i8y-v1-Umn"/>
                                         <constraint firstItem="LDE-sH-adt" firstAttribute="leading" secondItem="zbM-zX-8rb" secondAttribute="leading" constant="32" id="nQh-iG-7i1"/>
+                                        <constraint firstItem="Igt-9A-6Zu" firstAttribute="leading" secondItem="zbM-zX-8rb" secondAttribute="leading" constant="37" id="trf-NI-QDD"/>
                                         <constraint firstItem="LDE-sH-adt" firstAttribute="top" secondItem="cLa-Fo-JmI" secondAttribute="bottom" constant="16" id="ywN-ew-5s0"/>
                                     </constraints>
                                 </view>
