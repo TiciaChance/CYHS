@@ -18,18 +18,23 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var aspectFitImgView: UIImageView!
     
+    @IBOutlet weak var startButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         chosenHSLabel.isHidden = true
-        animation()
         aspectFitImgView.isUserInteractionEnabled = true
-        
+
         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(gestureRecognizer:)))
         aspectFitImgView.addGestureRecognizer(tapRecognizer)
         
     }
     
+    @IBAction func startButtonTapped(_ sender: Any) {
+        
+        animation()
+        startButton.isHidden = true
+    }
     
     @IBAction func saveButtonTapped(_ sender: Any) {
         
@@ -37,18 +42,20 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func shareButtonTapped(_ sender: Any) {
+    @IBAction func shareButtonTapped(_ sender: UIButton) {
         
         let actionSheet = UIAlertController(title: "", message: "Share your Note", preferredStyle: UIAlertControllerStyle.actionSheet)
         
         let tweetAction = UIAlertAction(title: "Share on Twitter", style: UIAlertActionStyle.default) { (action) -> Void in
             
             if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeTwitter) {
-                // Initialize the default view controller for sharing the post.
                 let twitterComposeVC = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
                 
                 twitterComposeVC?.setInitialText("Next time you see me I'll be rocking this hairstyle!")
+
                 twitterComposeVC?.add(self.aspectFitImgView.image)
+                self.present(twitterComposeVC!, animated: true, completion: nil)
+
             }
                 
             else {
@@ -63,7 +70,9 @@ class ViewController: UIViewController {
                 
                 facebookComposeVC?.setInitialText("Next time you see me I'll be rocking this hairstyle!")
                 
+                    facebookComposeVC?.add(self.aspectFitImgView.image)
                 self.present(facebookComposeVC!, animated: true, completion: nil)
+                
             }
             else {
                 self.showAlertMessage(message: "You are not connected to your Facebook account.")

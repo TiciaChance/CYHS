@@ -59,13 +59,25 @@
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3E-hT-6H1">
+                                            <rect key="frame" x="169" y="593" width="47" height="39"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <state key="normal" title="Start">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XA4-eD-Eff"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="cLa-Fo-JmI" secondAttribute="bottom" constant="90" id="D8Y-qN-1ZE"/>
                                         <constraint firstAttribute="trailing" secondItem="Igt-9A-6Zu" secondAttribute="trailing" constant="38" id="JdH-fJ-5qY"/>
+                                        <constraint firstItem="z3E-hT-6H1" firstAttribute="centerX" secondItem="zbM-zX-8rb" secondAttribute="centerX" id="Qm4-yI-wKC"/>
                                         <constraint firstItem="Igt-9A-6Zu" firstAttribute="top" secondItem="zbM-zX-8rb" secondAttribute="top" constant="36" id="XZV-TF-nlU"/>
                                         <constraint firstAttribute="trailing" secondItem="cLa-Fo-JmI" secondAttribute="trailing" id="Yup-Ed-xkR"/>
                                         <constraint firstItem="vqp-oX-uQr" firstAttribute="top" secondItem="cLa-Fo-JmI" secondAttribute="bottom" constant="16" id="ZFt-xz-yMm"/>
+                                        <constraint firstItem="z3E-hT-6H1" firstAttribute="top" secondItem="cLa-Fo-JmI" secondAttribute="bottom" constant="16" id="aEo-SO-FHS"/>
                                         <constraint firstAttribute="trailing" secondItem="vqp-oX-uQr" secondAttribute="trailing" constant="26" id="fr2-HF-8TT"/>
                                         <constraint firstItem="cLa-Fo-JmI" firstAttribute="top" secondItem="zbM-zX-8rb" secondAttribute="top" constant="100" id="gnw-BU-DkO"/>
                                         <constraint firstItem="cLa-Fo-JmI" firstAttribute="leading" secondItem="zbM-zX-8rb" secondAttribute="leading" id="i8y-v1-Umn"/>
@@ -93,6 +105,7 @@
                         <outlet property="aspectFitImgView" destination="cLa-Fo-JmI" id="L3u-81-Xsi"/>
                         <outlet property="chosenHSLabel" destination="Igt-9A-6Zu" id="OiR-hX-8vd"/>
                         <outlet property="mainImageView" destination="9tL-Bx-hw6" id="S2N-SJ-y4Z"/>
+                        <outlet property="startButton" destination="z3E-hT-6H1" id="m4u-Ki-Jju"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
