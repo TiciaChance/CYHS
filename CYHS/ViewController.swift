@@ -33,7 +33,15 @@ class ViewController: UIViewController {
     @IBAction func startButtonTapped(_ sender: Any) {
         
         animation()
-        startButton.isHidden = true
+        startButton.setTitle("Start Again", for: .normal)
+        
+        if aspectFitImgView.isUserInteractionEnabled == false && startButton.isEnabled {
+            
+            aspectFitImgView.isUserInteractionEnabled = true
+            
+        }
+        
+        
     }
     
     @IBAction func saveButtonTapped(_ sender: Any) {
@@ -41,6 +49,17 @@ class ViewController: UIViewController {
         UIImageWriteToSavedPhotosAlbum(aspectFitImgView.image!, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
         
     }
+    
+//    func startAgain() {
+//        
+//        if aspectFitImgView.isAnimating == false {
+//            
+//            startButton.isUserInteractionEnabled = true
+//            animation()
+//            
+//        }
+//        
+//    }
     
     @IBAction func shareButtonTapped(_ sender: UIButton) {
         
@@ -118,6 +137,7 @@ class ViewController: UIViewController {
         
         aspectFitImgView.stopAnimating()
         aspectFitImgView.image = images[Int(randomNum)]
+       
         aspectFitImgView.isUserInteractionEnabled = false
             chosenHSLabel.isHidden = false
     }
