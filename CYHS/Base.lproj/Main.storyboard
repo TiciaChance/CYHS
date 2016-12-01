@@ -31,9 +31,39 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cLa-Fo-JmI">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                            <rect key="frame" x="0.0" y="100" width="375" height="477"/>
                                         </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqp-oX-uQr">
+                                            <rect key="frame" x="292" y="593" width="57" height="39"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <state key="normal" title="Share">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="shareButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kx3-av-RXv"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDE-sH-adt">
+                                            <rect key="frame" x="32" y="593" width="49" height="39"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <state key="normal" title="Save">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="saveButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wej-4p-Bis"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="cLa-Fo-JmI" secondAttribute="bottom" constant="90" id="D8Y-qN-1ZE"/>
+                                        <constraint firstAttribute="trailing" secondItem="cLa-Fo-JmI" secondAttribute="trailing" id="Yup-Ed-xkR"/>
+                                        <constraint firstItem="vqp-oX-uQr" firstAttribute="top" secondItem="cLa-Fo-JmI" secondAttribute="bottom" constant="16" id="ZFt-xz-yMm"/>
+                                        <constraint firstAttribute="trailing" secondItem="vqp-oX-uQr" secondAttribute="trailing" constant="26" id="fr2-HF-8TT"/>
+                                        <constraint firstItem="cLa-Fo-JmI" firstAttribute="top" secondItem="zbM-zX-8rb" secondAttribute="top" constant="100" id="gnw-BU-DkO"/>
+                                        <constraint firstItem="cLa-Fo-JmI" firstAttribute="leading" secondItem="zbM-zX-8rb" secondAttribute="leading" id="i8y-v1-Umn"/>
+                                        <constraint firstItem="LDE-sH-adt" firstAttribute="leading" secondItem="zbM-zX-8rb" secondAttribute="leading" constant="32" id="nQh-iG-7i1"/>
+                                        <constraint firstItem="LDE-sH-adt" firstAttribute="top" secondItem="cLa-Fo-JmI" secondAttribute="bottom" constant="16" id="ywN-ew-5s0"/>
+                                    </constraints>
                                 </view>
                                 <blurEffect style="light"/>
                             </visualEffectView>
@@ -41,12 +71,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="9tL-Bx-hw6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5sT-h9-LEj"/>
-                            <constraint firstItem="cLa-Fo-JmI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Aft-Dr-SZL"/>
-                            <constraint firstItem="cLa-Fo-JmI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Brg-Yg-GIt"/>
-                            <constraint firstItem="cLa-Fo-JmI" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="DfV-dM-Gu6"/>
                             <constraint firstItem="9tL-Bx-hw6" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="FNq-y1-faG"/>
                             <constraint firstItem="Lik-0N-oZa" firstAttribute="width" secondItem="9tL-Bx-hw6" secondAttribute="width" id="QOJ-Ud-Gm6"/>
-                            <constraint firstItem="cLa-Fo-JmI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sn0-2e-mOP"/>
                             <constraint firstItem="9tL-Bx-hw6" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="fe4-L4-qkQ"/>
                             <constraint firstItem="Lik-0N-oZa" firstAttribute="height" secondItem="9tL-Bx-hw6" secondAttribute="height" id="gd3-qK-n0U"/>
                             <constraint firstItem="Lik-0N-oZa" firstAttribute="centerX" secondItem="9tL-Bx-hw6" secondAttribute="centerX" id="jj5-l6-NNW"/>
@@ -57,57 +83,14 @@
                     <connections>
                         <outlet property="aspectFitImgView" destination="cLa-Fo-JmI" id="L3u-81-Xsi"/>
                         <outlet property="mainImageView" destination="9tL-Bx-hw6" id="S2N-SJ-y4Z"/>
-                        <segue destination="wgb-lb-QuR" kind="show" identifier="revealSegue" id="u3W-qP-RUI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="TuU-yz-1YY">
-            <objects>
-                <viewController id="wgb-lb-QuR" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="UmE-oL-Gml"/>
-                        <viewControllerLayoutGuide type="bottom" id="qog-03-xub"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="6an-Ht-PSG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="waves.png" translatesAutoresizingMaskIntoConstraints="NO" id="sH7-1f-3P6">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AmQ-e1-nvE">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fSj-o7-ahi">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                </view>
-                                <blurEffect style="light"/>
-                            </visualEffectView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="sH7-1f-3P6" firstAttribute="height" secondItem="6an-Ht-PSG" secondAttribute="height" id="FbH-PR-FzZ"/>
-                            <constraint firstItem="AmQ-e1-nvE" firstAttribute="centerX" secondItem="6an-Ht-PSG" secondAttribute="centerX" id="G38-c1-Rhs"/>
-                            <constraint firstItem="AmQ-e1-nvE" firstAttribute="width" secondItem="6an-Ht-PSG" secondAttribute="width" id="GdA-tL-eN5"/>
-                            <constraint firstItem="AmQ-e1-nvE" firstAttribute="height" secondItem="6an-Ht-PSG" secondAttribute="height" id="Ije-lX-9pP"/>
-                            <constraint firstItem="sH7-1f-3P6" firstAttribute="centerY" secondItem="6an-Ht-PSG" secondAttribute="centerY" id="M7G-EZ-pty"/>
-                            <constraint firstItem="sH7-1f-3P6" firstAttribute="width" secondItem="6an-Ht-PSG" secondAttribute="width" id="Mey-Iu-dEv"/>
-                            <constraint firstItem="sH7-1f-3P6" firstAttribute="centerX" secondItem="6an-Ht-PSG" secondAttribute="centerX" id="fvv-3o-Aiy"/>
-                            <constraint firstItem="AmQ-e1-nvE" firstAttribute="centerY" secondItem="6an-Ht-PSG" secondAttribute="centerY" id="yTb-7B-FhU"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1C2-gM-RGw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="600.79999999999995" y="138.98050974512745"/>
-        </scene>
     </scenes>
     <resources>
         <image name="red.jpg" width="1280" height="1920"/>
-        <image name="waves.png" width="593" height="793"/>
     </resources>
 </document>
