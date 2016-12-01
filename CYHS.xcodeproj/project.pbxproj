@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		117E9DE41DF04BD3004D45FF /* ancestors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DE31DF04BD3004D45FF /* ancestors.jpg */; };
+		117E9DE61DF04BDA004D45FF /* brownfro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DE51DF04BDA004D45FF /* brownfro.jpg */; };
+		117E9DE81DF04BDF004D45FF /* updowithbraid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DE71DF04BDF004D45FF /* updowithbraid.jpg */; };
+		117E9DEA1DF04BE5004D45FF /* straightened.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DE91DF04BE5004D45FF /* straightened.jpg */; };
+		117E9DEC1DF04BEB004D45FF /* twa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DEB1DF04BEB004D45FF /* twa.jpg */; };
+		117E9DEE1DF04BF1004D45FF /* sleekupdo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DED1DF04BF1004D45FF /* sleekupdo.jpg */; };
+		117E9DF01DF04C50004D45FF /* babyhair.png in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DEF1DF04C50004D45FF /* babyhair.png */; };
+		117E9DF21DF04C54004D45FF /* massivebun.png in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DF11DF04C54004D45FF /* massivebun.png */; };
+		117E9DF41DF04C57004D45FF /* waves.png in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DF31DF04C57004D45FF /* waves.png */; };
 		119F285D1DEE44BB00576BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119F285C1DEE44BB00576BA1 /* AppDelegate.swift */; };
 		119F285F1DEE44BB00576BA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119F285E1DEE44BB00576BA1 /* ViewController.swift */; };
 		119F28621DEE44BC00576BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119F28601DEE44BC00576BA1 /* Main.storyboard */; };
@@ -58,6 +67,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		117E9DE31DF04BD3004D45FF /* ancestors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ancestors.jpg; sourceTree = "<group>"; };
+		117E9DE51DF04BDA004D45FF /* brownfro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brownfro.jpg; sourceTree = "<group>"; };
+		117E9DE71DF04BDF004D45FF /* updowithbraid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = updowithbraid.jpg; sourceTree = "<group>"; };
+		117E9DE91DF04BE5004D45FF /* straightened.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = straightened.jpg; sourceTree = "<group>"; };
+		117E9DEB1DF04BEB004D45FF /* twa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twa.jpg; sourceTree = "<group>"; };
+		117E9DED1DF04BF1004D45FF /* sleekupdo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sleekupdo.jpg; sourceTree = "<group>"; };
+		117E9DEF1DF04C50004D45FF /* babyhair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = babyhair.png; sourceTree = "<group>"; };
+		117E9DF11DF04C54004D45FF /* massivebun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = massivebun.png; sourceTree = "<group>"; };
+		117E9DF31DF04C57004D45FF /* waves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waves.png; sourceTree = "<group>"; };
 		119F28591DEE44BB00576BA1 /* CYHS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYHS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		119F285C1DEE44BB00576BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		119F285E1DEE44BB00576BA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +173,15 @@
 		119F28C61DEE7EDE00576BA1 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				117E9DE31DF04BD3004D45FF /* ancestors.jpg */,
+				117E9DE51DF04BDA004D45FF /* brownfro.jpg */,
+				117E9DE71DF04BDF004D45FF /* updowithbraid.jpg */,
+				117E9DE91DF04BE5004D45FF /* straightened.jpg */,
+				117E9DEB1DF04BEB004D45FF /* twa.jpg */,
+				117E9DED1DF04BF1004D45FF /* sleekupdo.jpg */,
+				117E9DF11DF04C54004D45FF /* massivebun.png */,
+				117E9DEF1DF04C50004D45FF /* babyhair.png */,
+				117E9DF31DF04C57004D45FF /* waves.png */,
 				119F28DB1DEE81B000576BA1 /* dreads3.jpg */,
 				119F28D91DEE81A700576BA1 /* curls.jpg */,
 				119F28D71DEE81A400576BA1 /* red.jpg */,
@@ -233,6 +260,7 @@
 				TargetAttributes = {
 					119F28581DEE44BB00576BA1 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TDFXWLD7DJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,12 +288,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117E9DEE1DF04BF1004D45FF /* sleekupdo.jpg in Resources */,
 				119F28671DEE44BC00576BA1 /* LaunchScreen.storyboard in Resources */,
 				119F28641DEE44BC00576BA1 /* Assets.xcassets in Resources */,
 				119F28851DEE784100576BA1 /* Photos For CYHS in Resources */,
 				119F28871DEE788400576BA1 /* bigbun.jpg in Resources */,
+				117E9DF01DF04C50004D45FF /* babyhair.png in Resources */,
 				119F288D1DEE79F500576BA1 /* blondeShortCut.jpg in Resources */,
 				119F288F1DEE7A0800576BA1 /* corneows.jpg in Resources */,
+				117E9DEC1DF04BEB004D45FF /* twa.jpg in Resources */,
 				119F28B71DEE7BEF00576BA1 /* fancy2.jpg in Resources */,
 				119F28911DEE7A0C00576BA1 /* flowerPigtail.jpg in Resources */,
 				119F28BD1DEE7EC500576BA1 /* quarterbantuknot.jpg in Resources */,
@@ -296,16 +327,22 @@
 				119F28B31DEE7BE900576BA1 /* wow.jpg in Resources */,
 				119F28AF1DEE7B5000576BA1 /* shortwithflower.jpg in Resources */,
 				119F28AB1DEE7B4600576BA1 /* lion.jpg in Resources */,
+				117E9DE81DF04BDF004D45FF /* updowithbraid.jpg in Resources */,
 				119F28A71DEE7ADF00576BA1 /* solange.jpg in Resources */,
 				119F28A91DEE7B3400576BA1 /* flexirodfro.jpg in Resources */,
 				119F28A51DEE7ADC00576BA1 /* 90shightop.jpg in Resources */,
 				119F28951DEE7A1400576BA1 /* medBlkAfro.jpg in Resources */,
+				117E9DF21DF04C54004D45FF /* massivebun.png in Resources */,
+				117E9DE41DF04BD3004D45FF /* ancestors.jpg in Resources */,
 				119F28A11DEE7AD400576BA1 /* sza.jpg in Resources */,
+				117E9DF41DF04C57004D45FF /* waves.png in Resources */,
+				117E9DE61DF04BDA004D45FF /* brownfro.jpg in Resources */,
 				119F28A31DEE7AD700576BA1 /* shortandcute.jpg in Resources */,
 				119F28971DEE7A1700576BA1 /* officialAFRO.jpg in Resources */,
 				119F28991DEE7A1B00576BA1 /* shavedsided.jpg in Resources */,
 				119F289B1DEE7A1E00576BA1 /* superShortBlonde.jpg in Resources */,
 				119F28621DEE44BC00576BA1 /* Main.storyboard in Resources */,
+				117E9DEA1DF04BE5004D45FF /* straightened.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TDFXWLD7DJ;
 				INFOPLIST_FILE = CYHS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.CYHS;
@@ -452,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TDFXWLD7DJ;
 				INFOPLIST_FILE = CYHS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.CYHS;
@@ -479,6 +518,7 @@
 				119F286D1DEE44BC00576BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
