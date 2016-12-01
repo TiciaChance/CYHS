@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11505AA61DF082760077A1DD /* Choose Your Ha.png in Resources */ = {isa = PBXBuildFile; fileRef = 11505AA51DF082760077A1DD /* Choose Your Ha.png */; };
 		117E9DE41DF04BD3004D45FF /* ancestors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DE31DF04BD3004D45FF /* ancestors.jpg */; };
 		117E9DE61DF04BDA004D45FF /* brownfro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DE51DF04BDA004D45FF /* brownfro.jpg */; };
 		117E9DE81DF04BDF004D45FF /* updowithbraid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DE71DF04BDF004D45FF /* updowithbraid.jpg */; };
@@ -68,6 +69,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11505AA51DF082760077A1DD /* Choose Your Ha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Choose Your Ha.png"; sourceTree = "<group>"; };
 		117E9DE31DF04BD3004D45FF /* ancestors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ancestors.jpg; sourceTree = "<group>"; };
 		117E9DE51DF04BDA004D45FF /* brownfro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brownfro.jpg; sourceTree = "<group>"; };
 		117E9DE71DF04BDF004D45FF /* updowithbraid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = updowithbraid.jpg; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		119F28501DEE44BB00576BA1 = {
 			isa = PBXGroup;
 			children = (
+				11505AA51DF082760077A1DD /* Choose Your Ha.png */,
 				119F28C61DEE7EDE00576BA1 /* Photos */,
 				119F285B1DEE44BB00576BA1 /* CYHS */,
 				119F285A1DEE44BB00576BA1 /* Products */,
@@ -319,6 +322,7 @@
 				119F28DC1DEE81B000576BA1 /* dreads3.jpg in Resources */,
 				119F28D41DEE815100576BA1 /* fro.jpg in Resources */,
 				119F28C31DEE7ECE00576BA1 /* facedreads.jpg in Resources */,
+				11505AA61DF082760077A1DD /* Choose Your Ha.png in Resources */,
 				119F28B91DEE7BF200576BA1 /* amazing.jpg in Resources */,
 				119F28DA1DEE81A700576BA1 /* curls.jpg in Resources */,
 				119F28D81DEE81A400576BA1 /* red.jpg in Resources */,
