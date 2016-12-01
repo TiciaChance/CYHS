@@ -53,6 +53,13 @@
                                                 <action selector="saveButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wej-4p-Bis"/>
                                             </connections>
                                         </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is your next hairstyle!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igt-9A-6Zu">
+                                            <rect key="frame" x="37" y="36" width="300" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="cLa-Fo-JmI" secondAttribute="bottom" constant="90" id="D8Y-qN-1ZE"/>
@@ -82,6 +89,7 @@
                     </view>
                     <connections>
                         <outlet property="aspectFitImgView" destination="cLa-Fo-JmI" id="L3u-81-Xsi"/>
+                        <outlet property="chosenHSLabel" destination="Igt-9A-6Zu" id="OiR-hX-8vd"/>
                         <outlet property="mainImageView" destination="9tL-Bx-hw6" id="S2N-SJ-y4Z"/>
                     </connections>
                 </viewController>
