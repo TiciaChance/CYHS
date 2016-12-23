@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A138B753D141415468E09AAEF785FDA3EDB68D1A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A138B753D141415468E09AAEF785FDA3EDB68D1A" : 9223372036854775807,
+    "8A44939297ED3C966B1B3628C513AD56F499E2A8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8E8BBF08-5BD6-427C-8A06-7516F78F272A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A138B753D141415468E09AAEF785FDA3EDB68D1A" : "CYHS\/",
+    "8A44939297ED3C966B1B3628C513AD56F499E2A8" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CYHS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CYHS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:TiciaChance\/NameTheShow.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A44939297ED3C966B1B3628C513AD56F499E2A8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:TiciaChance\/CYHS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A138B753D141415468E09AAEF785FDA3EDB68D1A"
+    }
+  ]
+}

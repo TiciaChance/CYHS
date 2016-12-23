@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         chosenHSLabel.isHidden = true
-        aspectFitImgView.isUserInteractionEnabled = true
+        aspectFitImgView.isUserInteractionEnabled = false
 
         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(gestureRecognizer:)))
         aspectFitImgView.addGestureRecognizer(tapRecognizer)
