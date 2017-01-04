@@ -33,7 +33,10 @@ class ViewController: UIViewController {
     @IBAction func startButtonTapped(_ sender: Any) {
         
         animation()
-        startButton.setTitle("Start Again", for: .normal)
+        
+        startButton.isHidden = true
+        chosenHSLabel.isHidden = true
+        //startButton.setTitle("Start Again", for: .normal)
         
         if aspectFitImgView.isUserInteractionEnabled == false && startButton.isEnabled {
             
@@ -50,16 +53,7 @@ class ViewController: UIViewController {
         
     }
     
-//    func startAgain() {
-//        
-//        if aspectFitImgView.isAnimating == false {
-//            
-//            startButton.isUserInteractionEnabled = true
-//            animation()
-//            
-//        }
-//        
-//    }
+
     
     @IBAction func shareButtonTapped(_ sender: UIButton) {
         
@@ -140,6 +134,10 @@ class ViewController: UIViewController {
        
         aspectFitImgView.isUserInteractionEnabled = false
             chosenHSLabel.isHidden = false
+        
+            startButton.isHidden = false
+            startButton.setTitle("Start Again", for: .normal)
+
     }
     
     

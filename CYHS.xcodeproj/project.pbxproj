@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1133269C1E1C37EC00B40D54 /* medBlkAfro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1133269B1E1C37EC00B40D54 /* medBlkAfro.jpg */; };
 		11505AA61DF082760077A1DD /* Choose Your Ha.png in Resources */ = {isa = PBXBuildFile; fileRef = 11505AA51DF082760077A1DD /* Choose Your Ha.png */; };
 		117E9DE41DF04BD3004D45FF /* ancestors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DE31DF04BD3004D45FF /* ancestors.jpg */; };
 		117E9DE61DF04BDA004D45FF /* brownfro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117E9DE51DF04BDA004D45FF /* brownfro.jpg */; };
@@ -30,7 +31,6 @@
 		119F288F1DEE7A0800576BA1 /* corneows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F288E1DEE7A0800576BA1 /* corneows.jpg */; };
 		119F28911DEE7A0C00576BA1 /* flowerPigtail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28901DEE7A0C00576BA1 /* flowerPigtail.jpg */; };
 		119F28931DEE7A0F00576BA1 /* greyUpDo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28921DEE7A0F00576BA1 /* greyUpDo.jpg */; };
-		119F28951DEE7A1400576BA1 /* medBlkAfro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28941DEE7A1400576BA1 /* medBlkAfro.jpg */; };
 		119F28971DEE7A1700576BA1 /* officialAFRO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28961DEE7A1700576BA1 /* officialAFRO.jpg */; };
 		119F28991DEE7A1B00576BA1 /* shavedsided.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F28981DEE7A1B00576BA1 /* shavedsided.jpg */; };
 		119F289B1DEE7A1E00576BA1 /* superShortBlonde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119F289A1DEE7A1E00576BA1 /* superShortBlonde.jpg */; };
@@ -69,6 +69,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1133269B1E1C37EC00B40D54 /* medBlkAfro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medBlkAfro.jpg; path = ../../medBlkAfro.jpg; sourceTree = "<group>"; };
 		11505AA51DF082760077A1DD /* Choose Your Ha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Choose Your Ha.png"; sourceTree = "<group>"; };
 		117E9DE31DF04BD3004D45FF /* ancestors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ancestors.jpg; sourceTree = "<group>"; };
 		117E9DE51DF04BDA004D45FF /* brownfro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brownfro.jpg; sourceTree = "<group>"; };
@@ -94,7 +95,6 @@
 		119F288E1DEE7A0800576BA1 /* corneows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = corneows.jpg; path = "CYHS/Photos For CYHS/corneows.jpg"; sourceTree = "<group>"; };
 		119F28901DEE7A0C00576BA1 /* flowerPigtail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = flowerPigtail.jpg; path = "CYHS/Photos For CYHS/flowerPigtail.jpg"; sourceTree = "<group>"; };
 		119F28921DEE7A0F00576BA1 /* greyUpDo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = greyUpDo.jpg; path = "CYHS/Photos For CYHS/greyUpDo.jpg"; sourceTree = "<group>"; };
-		119F28941DEE7A1400576BA1 /* medBlkAfro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medBlkAfro.jpg; path = "CYHS/Photos For CYHS/medBlkAfro.jpg"; sourceTree = "<group>"; };
 		119F28961DEE7A1700576BA1 /* officialAFRO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = officialAFRO.jpg; path = "CYHS/Photos For CYHS/officialAFRO.jpg"; sourceTree = "<group>"; };
 		119F28981DEE7A1B00576BA1 /* shavedsided.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shavedsided.jpg; path = "CYHS/Photos For CYHS/shavedsided.jpg"; sourceTree = "<group>"; };
 		119F289A1DEE7A1E00576BA1 /* superShortBlonde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = superShortBlonde.jpg; path = "CYHS/Photos For CYHS/superShortBlonde.jpg"; sourceTree = "<group>"; };
@@ -230,9 +230,9 @@
 				119F289C1DEE7A5F00576BA1 /* colorful.jpg */,
 				119F289E1DEE7ACB00576BA1 /* fancy.jpg */,
 				119F289A1DEE7A1E00576BA1 /* superShortBlonde.jpg */,
+				1133269B1E1C37EC00B40D54 /* medBlkAfro.jpg */,
 				119F28981DEE7A1B00576BA1 /* shavedsided.jpg */,
 				119F28961DEE7A1700576BA1 /* officialAFRO.jpg */,
-				119F28941DEE7A1400576BA1 /* medBlkAfro.jpg */,
 				119F28921DEE7A0F00576BA1 /* greyUpDo.jpg */,
 				119F28901DEE7A0C00576BA1 /* flowerPigtail.jpg */,
 				119F288E1DEE7A0800576BA1 /* corneows.jpg */,
@@ -347,7 +347,7 @@
 				119F28A71DEE7ADF00576BA1 /* solange.jpg in Resources */,
 				119F28A91DEE7B3400576BA1 /* flexirodfro.jpg in Resources */,
 				119F28A51DEE7ADC00576BA1 /* 90shightop.jpg in Resources */,
-				119F28951DEE7A1400576BA1 /* medBlkAfro.jpg in Resources */,
+				1133269C1E1C37EC00B40D54 /* medBlkAfro.jpg in Resources */,
 				117E9DF21DF04C54004D45FF /* massivebun.png in Resources */,
 				117E9DE41DF04BD3004D45FF /* ancestors.jpg in Resources */,
 				119F28A11DEE7AD400576BA1 /* sza.jpg in Resources */,
